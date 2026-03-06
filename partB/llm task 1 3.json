@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 1.3",
+    "code_used_verbatim": false,
+    "student_modification": "Identified the Shapelet Tree as the key baseline and inferred the memory bottleneck scenario.",
+    "top_5_prompts": [
+        "The paper cites Ye and Keogh (2009) a lot. Can you help me explain the difference between their tree and this transform?",
+        "I'm trying to put into my own words why the 'decoupling' makes it better than the baseline. Is it about classifier flexibility?",
+        "What's a scenario where the memory of a full transform matrix would be worse than just using a simple decision tree path?",
+        "help me refine my explanation of the stability bottleneck in Shapelet Trees",
+        "is the Rotation Forest mentioned in Section 4 the primary baseline result?"
+    ],
+    "verification": "Verified that Shapelet Tree (Ye and Keogh) is the primary baseline cited."
+}

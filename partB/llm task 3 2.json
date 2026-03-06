@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 3.2",
+    "code_used_verbatim": false,
+    "student_modification": "Constructed the frequency failure case and linked it to Assumption 1 of Task 1.2.",
+    "top_5_prompts": [
+        "I'm thinking of using frequency differences as a failure mode because shapelets are local. Does this directly violate Assumption 1?",
+        "can you help me generate a plot of a slow vs fast sine wave to show where the method struggles?",
+        "how do I explain that local motifs can't capture global periodicity in my Task 3.2 response?",
+        "is adding an FFT feature a reasonable suggestion for fixing the frequency-based failure?",
+        "help me link this failure mode specifically back to the phase-independence or local feature assumptions in Section 2"
+    ],
+    "verification": "The failure mode explanation matches the assumption identification in notebook 1.2."
+}

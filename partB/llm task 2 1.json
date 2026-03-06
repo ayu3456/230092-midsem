@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 2.1",
+    "code_used_verbatim": true,
+    "student_modification": "I added logic for Z-normalization and seed consistency (42) to the generated synthetic data script.",
+    "top_5_prompts": [
+        "I'm using a synthetic Sine vs Square dataset for my testbed. Can you help me generate the code for this in numpy?",
+        "what's the standard way to apply Z-normalization to a time-series array in Python?",
+        "how do I justify using a toy dataset instead of the UCR ones mentioned in the paper?",
+        "I need help drafting the limitations of my synthetic data compared to real-world sensor data",
+        "generate a plot script to visualize the sine and square wave samples with some noise"
+    ],
+    "verification": "Verified that the dataset satisfies the 'at least 100 samples and 2 features' requirement."
+}

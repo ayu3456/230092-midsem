@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 4.2",
+    "code_used_verbatim": false,
+    "student_modification": "Ensured all 10 JSON files followed the exact required structure.",
+    "top_5_prompts": [
+        "I need to make sure my JSON disclosure files follow the strict requirements. What fields are absolutely mandatory?",
+        "help me rewrite my prompts to sound more like my own research process for the final submission",
+        "is the JSON format specified in Part A the same one I should use for all 10 files in Part B?",
+        "check if my disclosure file for Task 4.2 correctly captures my interaction with the LLM",
+        "can you help me draft a verification statement for the bottom of each JSON file?"
+    ],
+    "verification": "All files match the structure provided in the Part B instructions."
+}

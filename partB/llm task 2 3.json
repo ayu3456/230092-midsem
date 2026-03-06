@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 2.3",
+    "code_used_verbatim": false,
+    "student_modification": "I interpreted the accuracy gap based on dataset SNR differences.",
+    "top_5_prompts": [
+        "My accuracy is really high (0.98), but the paper has lower scores on Beef/ECG. How should I explain this gap?",
+        "what are the key items I should include in a Reproducibility Checklist for an AML assignment?",
+        "help me interpret the 2D feature space scatter plot in the context of class separation",
+        "is it fair to say sensor noise is the main reason for the performance gap compared to the paper?",
+        "draft a paragraph explaining that my high result is due to high SNR in the toy data"
+    ],
+    "verification": "The checklist was manually verified against the project structure."
+}

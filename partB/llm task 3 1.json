@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 3.1",
+    "code_used_verbatim": false,
+    "student_modification": "Designed the two ablations (step-wise) to specifically test 'Search' and 'Transform'.",
+    "top_5_prompts": [
+        "I want to test the 'discovery' engine vs a random transform for my ablation. Does this effectively prove Section 3.2's importance?",
+        "what happens if I remove the transform step and train on raw data? will the shift invariance from Section 3.4 be lost?",
+        "help me interpret why the random shapelet transform had such a massive drop in accuracy",
+        "can you help me format a table comparing the full method against my two ablated versions?",
+        "I'm writing 5-7 sentences on the ablation results, can you help me make my interpretation sound more grounded in the paper's claims?"
+    ],
+    "verification": "Both ablations were conducted independently as per instructions."
+}

@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 1.1",
+    "code_used_verbatim": false,
+    "student_modification": "I summarized the paper's architecture into the requested step-by-step format with specific section references.",
+    "top_5_prompts": [
+        "help me draft a step-by-step summary of the Shapelet Transform pipeline based on my notes from Section 3",
+        "can you verify if Algorithm 1 (GenerateCandidates) is the right place to look for the subsequence extraction logic?",
+        "I'm writing the 'Purpose' for the filtering step in Section 3.3, does it mainly focus on redundancy or speed?",
+        "how should I explain the decoupling of search and classification to a classmate?",
+        "check if my description of the dimensionality mapping in Section 3.4 is too technical"
+    ],
+    "verification": "I certify that all decisions regarding architectural steps were verified against Lines et al. (2012)."
+}

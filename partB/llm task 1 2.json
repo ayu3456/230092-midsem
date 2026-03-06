@@ -1,0 +1,13 @@
+{
+    "task_tag": "Task 1.2",
+    "code_used_verbatim": false,
+    "student_modification": "Extracted assumptions about phase-independence and local discriminability from my reading of Section 2.",
+    "top_5_prompts": [
+        "I'm reading Section 2.1 about subsequence distance. Is it correct to assume the method relies heavily on local features?",
+        "what's a good real-world example of where phase-independence might be a problem for the ST method?",
+        "how does the assumption of Euclidean distance relate to the Z-normalization mentioned in Section 2.1?",
+        "I need help phrasing why the method needs Z-normalization for shape similarity for my Task 1.2 answer",
+        "what are some cases where motifs aren't the best way to classify time series?"
+    ],
+    "verification": "Assumptions were traced to specific constraints in the Subsequence Distance metric."
+}
