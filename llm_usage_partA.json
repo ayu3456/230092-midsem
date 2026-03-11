@@ -1,133 +1,45 @@
 {
-    "student_metadata": {
-      "name": "Ayush Gupta",
-      "roll_number": "230092",
-      "course": "Advanced Machine Learning",
-      "exam": "Mid-Semester Examination",
-      "part": "Part A",
-      "submission_date": "2026-03-02"
-    },
-  
-    "research_paper": {
-      "title": "A Shapelet Transform for Time Series Classification",
-      "authors": [
-        "Jason Lines",
-        "Luke M. Davis",
-        "Jon Hills",
-        "Anthony Bagnall"
-      ],
-      "conference": "KDD 2012",
-      "doi": "https://doi.org/10.1145/2339530.2339579"
-    },
-  
-    "llm_tools_used": [
-      {
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "provider": "OpenAI"
-      }
-    ],
-  
-    "full_llm_interaction_log": [
-      {
-        "interaction_id": 1,
-        "date": "2026-03-02",
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "purpose": "Understanding the concept of shapelets",
-        "prompt": "Explain what a shapelet is in time series classification and why it is useful.",
-        "llm_response_used": "Yes",
-        "how_it_helped": "Helped clarify that shapelets are discriminative subsequences that represent class-specific patterns and enable phase-independent similarity detection.",
-        "student_verification": "Verified by reading Section 2.2 of the paper and confirming the definition and distance formulation.",
-        "confidence_level": 5
-      },
-      {
-        "interaction_id": 2,
-        "date": "2026-03-02",
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "purpose": "Understanding difference between shapelet tree and shapelet transform",
-        "prompt": "What is the difference between embedded shapelet decision tree and shapelet transform?",
-        "llm_response_used": "Yes",
-        "how_it_helped": "Clarified that the original approach embeds shapelet discovery inside a decision tree, whereas the transform separates feature extraction from classification.",
-        "student_verification": "Confirmed by reviewing Sections 3 and 5.1 where the transform is compared against shapelet tree.",
-        "confidence_level": 5
-      },
-      {
-        "interaction_id": 3,
-        "date": "2026-03-02",
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "purpose": "Understanding F-statistic vs Information Gain",
-        "prompt": "Why does the shapelet transform paper use F-statistic instead of information gain?",
-        "llm_response_used": "Partially",
-        "how_it_helped": "Helped understand that F-statistic compares class-wise distance distributions and works better in multi-class scenarios.",
-        "student_verification": "Cross-checked with Section 3.1 and experimental comparison in Section 5.2.",
-        "confidence_level": 4
-      },
-      {
-        "interaction_id": 4,
-        "date": "2026-03-02",
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "purpose": "Understanding computational complexity",
-        "prompt": "What is the computational complexity of exhaustive shapelet search?",
-        "llm_response_used": "Yes",
-        "how_it_helped": "Explained that the candidate space is O(m^3) due to all possible subsequences across all lengths.",
-        "student_verification": "Verified from Section 2.2.1 where candidate size is discussed.",
-        "confidence_level": 5
-      },
-      {
-        "interaction_id": 5,
-        "date": "2026-03-02",
-        "tool_name": "ChatGPT",
-        "model": "GPT-4",
-        "purpose": "Understanding experimental design",
-        "prompt": "How does the paper select the number of shapelets using cross-validation?",
-        "llm_response_used": "Yes",
-        "how_it_helped": "Helped clarify the 5-fold cross-validation strategy used to determine optimal number of shapelets.",
-        "student_verification": "Verified from Section 3.4 where automatic selection strategy is explained.",
-        "confidence_level": 5
-      }
-    ],
-  
-    "top_5_prompts": [
-      {
-        "rank": 1,
-        "interaction_id": 2,
-        "prompt": "What is the difference between embedded shapelet decision tree and shapelet transform?",
-        "why_important": "Understanding the main methodological contribution of the paper."
-      },
-      {
-        "rank": 2,
-        "interaction_id": 1,
-        "prompt": "Explain what a shapelet is in time series classification and why it is useful.",
-        "why_important": "Core concept of the entire paper."
-      },
-      {
-        "rank": 3,
-        "interaction_id": 3,
-        "prompt": "Why does the shapelet transform paper use F-statistic instead of information gain?",
-        "why_important": "Important methodological change compared to prior work."
-      },
-      {
-        "rank": 4,
-        "interaction_id": 5,
-        "prompt": "How does the paper select the number of shapelets using cross-validation?",
-        "why_important": "Critical for model selection and experimental performance."
-      },
-      {
-        "rank": 5,
-        "interaction_id": 4,
-        "prompt": "What is the computational complexity of exhaustive shapelet search?",
-        "why_important": "Important for understanding scalability constraints."
-      }
-    ],
-  
-    "student_declaration": {
-      "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
-      "understanding_acknowledged": true,
-      "signature": "Ayush Gupta",
-      "date": "2026-03-02"
+  "student_metadata": {
+    "name": "Ayush Gupta",
+    "roll_number": "230092",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Antigravity",
+      "model": "Gemini 2.0 Pro",
+      "provider": "Google"
     }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Antigravity",
+      "model": "Gemini 2.0 Pro",
+      "purpose": "Workspace preparation and paper eligibility check",
+      "prompt": "delete the content before and i am giving new paper do part A then part B wait for my input. [Paper Content Provided]",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent cleared the workspace and verified that the provided paper 'Suboptimal Solution Path Algorithm for Support Vector Machine' meets the exam criteria (ICML 2011, CORE A*, 2009-2012, SVM-based).",
+      "student_verification": "I checked that the paper is indeed from ICML 2011 and focuses on SVM solution paths as required by the examiners.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "delete the content before and i am giving new paper do part A then part B wait for my input.",
+      "why_important": "This prompt initiated the reset of the project state and the selection of the new paper, ensuring compliance with the 'first-come, first-select' and uniqueness rules."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "Ayush Gupta",
+    "date": "2026-03-11"
   }
+}

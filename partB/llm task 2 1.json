@@ -1,13 +1,48 @@
 {
-    "task_tag": "Task 2.1",
-    "code_used_verbatim": true,
-    "student_modification": "I added logic for Z-normalization and seed consistency (42) to the generated synthetic data script.",
-    "top_5_prompts": [
-        "I'm using a synthetic Sine vs Square dataset for my testbed. Can you help me generate the code for this in numpy?",
-        "what's the standard way to apply Z-normalization to a time-series array in Python?",
-        "how do I justify using a toy dataset instead of the UCR ones mentioned in the paper?",
-        "I need help drafting the limitations of my synthetic data compared to real-world sensor data",
-        "generate a plot script to visualize the sine and square wave samples with some noise"
-    ],
-    "verification": "Verified that the dataset satisfies the 'at least 100 samples and 2 features' requirement."
+  "student_metadata": {
+    "name": "Ayush Gupta",
+    "roll_number": "230092",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Antigravity",
+      "model": "Gemini 2.0 Pro",
+      "provider": "Google"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Antigravity",
+      "model": "Gemini 2.0 Pro",
+      "task_tag": "Task 2.1",
+      "purpose": "Dataset generation for SVM",
+      "prompt": "Write code to generate a 2D synthetic classification dataset with 100 samples suitable for testing an SVM solution path algorithm. Use make_classification.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent provided a standard scikit-learn snippet to create a toy dataset with specified features.",
+      "student_verification": "I checked the code to ensure it uses the y = {-1, 1} encoding, which is critical for the paper's dual formulation equations.",
+      "confidence_level": 5,
+      "code_used_verbatim": true,
+      "student_modification": "I added the conversion from {0, 1} to {-1, +1} labels."
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Write code to generate a 2D synthetic classification dataset with 100 samples suitable for testing an SVM solution path algorithm. Use make_classification.",
+      "why_important": "This ensured that the toy dataset setup was standard and followed the minimum requirements of 100 samples and 2 features."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 2.1.",
+    "understanding_acknowledged": true,
+    "signature": "Ayush Gupta",
+    "date": "2026-03-11"
+  }
 }
