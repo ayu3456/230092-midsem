@@ -1,8 +1,20 @@
-# AML Mid-Sem Part B Report: Suboptimal SVM Solution Path
+# Advanced Machine Learning
+# Mid-Semester Examination
 
-**Name:** Ayush Gupta  
-**Roll Number:** 230092  
-**Paper:** Suboptimal Solution Path Algorithm for Support Vector Machine (Karasuyama & Takeuchi, 2011)
+## PART B: Reproduction, Experimentation & Analysis
+
+**3rd Year, Semester 6**  
+**NST, Rishihood University, Sonipat**
+
+---
+
+### Release, Deadline, and Format
+- **Release Date:** 5th March 2026, 8 A.M.
+- **Deadline:** 2 hours before advance ml exam (i.e. 12 March 2026, 8 A.M.)
+- **Total Marks:** 130 marks
+- **Format:** Open book, open tool (LLM use allowed with full disclosure)
+- **Submission:** Same GitHub repository as Part A + Google Form
+- **Paper:** Suboptimal Solution Path Algorithm for Support Vector Machine (Karasuyama & Takeuchi, 2011)
 
 ---
 
